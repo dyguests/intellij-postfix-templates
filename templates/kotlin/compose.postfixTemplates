@@ -1,5 +1,5 @@
 .byVal : val name by name:MutableState
-    ANY →  val $name2#2::"name"$ by $expr$.$name#1::"name"$
+    ANY →  val $name#2::"name"$ by $expr$.$name#1::"name"$
 
-.byVal2 : val name by name:MutableState
-    ANY →  val $name#2$ by $expr$.$name#1$
+.byVar : var name by name:MutableState
+    ANY →  var $name#2::"name"$ by $expr$.$name#1::"name"$
